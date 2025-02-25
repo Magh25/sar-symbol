@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'sar-symbol';
+    src:  url('fonts/sar-symbol.eot?ebwrxj');
+    src:  url('fonts/sar-symbol.eot?ebwrxj#iefix') format('embedded-opentype'),
+          url('fonts/sar-symbol.ttf?ebwrxj') format('truetype'),
+          url('fonts/sar-symbol.woff?ebwrxj') format('woff'),
+          url('fonts/sar-symbol.svg?ebwrxj#sar-symbol') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.sar-currency {
+    font-family: 'sar-symbol', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #009688; /* لون مميز */
+    margin-left: 5px;
+}

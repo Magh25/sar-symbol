@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فاتورة</title>
+    <link rel="stylesheet" href="currency.css">
+    <style>
+        * {
+            direction: rtl;
+            text-align: right;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            margin: 20px;
+            padding: 20px;
+            background: #f8f8f8;
+        }
+
+        .invoice {
+            max-width: 600px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .invoice-header {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .invoice-table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+
+        .invoice-table th, .invoice-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        .invoice-table th {
+            background: #eee;
+        }
+
+        .total {
+            font-size: 18px;
+            font-weight: bold;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="invoice">
+        <div class="invoice-header">فاتورة</div>
+
+        <table class="invoice-table">
+            <thead>
+                <tr>
+                    <th>المنتج</th>
+                    <th>الكمية</th>
+                    <th>السعر</th>
+                    <th>الإجمالي</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>منتج A</td>
+                    <td>2</td>
+                    <td><span class="sar-currency">&#xe900;</span> 50</td>
+                    <td><span class="sar-currency">&#xe900;</span> 100</td>
+                </tr>
+                <tr>
+                    <td>منتج B</td>
+                    <td>1</td>
+                    <td><span class="sar-currency">&#xe900;</span> 80</td>
+                    <td><span class="sar-currency">&#xe900;</span> 80</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3" class="total">الإجمالي:</td>
+                    <td><span class="sar-currency">&#xe900;</span> 180</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+</body>
+</html>
