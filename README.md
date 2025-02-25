@@ -31,6 +31,8 @@ This repository provides a font for the Saudi Riyal (SAR) symbol (). You can 
   margin-left: 5px; /* Adjust as needed */ذ
 }
 ```
+
 2. **add this:**
-   ```html 
-   <span class="sar-currency">&#xe900;</span>```
+```html 
+<span class="sar-currency">&#xe900;</span>
+```
