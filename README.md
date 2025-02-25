@@ -32,7 +32,7 @@ This repository provides a font for the Saudi Riyal (SAR) symbol (). You can 
 }
 ```
 
-2. **add this:**
+3. **add this:**
 ```html 
 <span class="sar-currency">&#xe900;</span>
 ```
